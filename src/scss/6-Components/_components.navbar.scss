@@ -1,0 +1,36 @@
+.navbar {
+  background: $primary;
+  .navbar-toggler.navbar-toggler-right {
+    padding: 0;
+    outline: none;
+    border: none;
+    .ion-navicon {
+      padding: 1rem;
+      color: $gris;
+      font-size: 3rem;
+      &:hover {
+        transition: .2s ease-in-out;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    width: 70px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $gris;
+  font-family: $font-family;
+  text-align: right;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  &:hover {
+    color: $gris;
+    opacity: .7;
+  }
+}

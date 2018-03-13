@@ -1,0 +1,25 @@
+section.main-banner {
+  min-height: 100vh;
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 2rem;
+    font-weight: 100;
+    color: $gris;
+    letter-spacing: $font-size/2;
+
+    @media screen and(max-width: 576px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    color: $gris;
+    font-weight: 100;
+    font-family: $font-family;
+  }
+}

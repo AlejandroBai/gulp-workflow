@@ -1,0 +1,43 @@
+{
+  "name": "frontend-workflow-gulp",
+  "version": "1.0.0",
+  "description": "Entorno de Desarrollo Frontend con Gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroBai/gulp-workflow.git"
+  },
+  "keywords": [
+    "frontend",
+    "gulp",
+    "workflow",
+    "bai"
+  ],
+  "author": "Alejandro Bayo Saiz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AlejandroBai/gulp-workflow/issues"
+  },
+  "homepage": "https://github.com/AlejandroBai/gulp-workflow#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-html-minify": "0.0.14",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {}
+}
