@@ -80,7 +80,7 @@ $ gulp work
 
 ### Archivos de producción una vez concluido
 
-Permite exportar el proyecto para producción. Incluye minificación y optimización de todos los archivos e imágenes. Todo queda listo para publicar.
+Permite exportar el proyecto para producción. Incluye minificación y optimización de todos los archivos e imágenes. Todo queda exportado a la carpeta app y listo para publicar.
 
 ```
 $ gulp dist
