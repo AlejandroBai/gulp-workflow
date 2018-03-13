@@ -40,7 +40,7 @@ Para descargar el proyecto, puedes hacerlo desde el enlace que provee GitHub y d
 
 O copiar en el terminal lo siguiente:
 ```
-$ npm git clone https://github.com/AlejandroBai/bai-frontend-workflow-gulp.git
+$ git clone https://github.com/AlejandroBai/gulp-workflow.git
 ```
 
 ### Instación de todas las dependencias para que funcione
