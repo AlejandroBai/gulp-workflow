@@ -36,7 +36,7 @@ git version 2.14.3
 ### Instación del Workflow
 
 Para descargar el proyecto, puedes hacerlo desde el enlace que provee GitHub y descargar todo el paquete en .zip:
-* [Workflow-Gulp](https://github.com/AlejandroBai/bai-frontend-workflow-gulp.git)
+* [Workflow-Gulp](https://github.com/AlejandroBai/gulp-workflow/archive/master.zip)
 
 O copiar en el terminal lo siguiente:
 ```
