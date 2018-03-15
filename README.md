@@ -13,7 +13,7 @@ Se requiere conocimientos de HTML, CSS y JavaScript. Así como nociones básicas
 
 ### Requisitos
 
-Para que este Workflow funcione hay que tener instalado Node.js. Puedes instalarlo desde su web oficial:
+Para que este Workflow funcione hay que tener instalado Node.js en nuestro sistema. Puedes instalarlo desde su web oficial:
 * [NODE.JS](https://nodejs.org/es/)
 
 Una vez instalado puedes comprobar en el terminal el número de versión para confirmar que se ha instalado correctamente:
@@ -23,7 +23,7 @@ $ node -v
 v9.6.1
 ```
 
-También debemos instalar Git
+También debemos instalar Git en nuestro sistema.
 * [GIT](https://git-scm.com/downloads)
 
 Y lo mismo, una vez instalado puedes comprobar en el terminal el número de versión para confirmar que se ha instalado correctamente:
@@ -32,6 +32,20 @@ Y lo mismo, una vez instalado puedes comprobar en el terminal el número de vers
 $ git --version
 git version 2.14.3
 ```
+
+Y por último, debemos instalar Gulp.js de forma global.
+* [GULP.JS](https://gulpjs.com/)
+
+```
+$ npm install gulp-cli gulp -global
+```
+
+Y lo mismo de antes, puedes comprobar el número de versión para confirmar la instalación:
+```
+$ gulp -v
+CLI version 3.9.1
+```
+
 
 ### Instación del Workflow
 
@@ -68,7 +82,7 @@ Permite exportar el proyecto para desarrollo. No incluye minificación, optimiza
 $ gulp dev
 ```
 
-### Para trabajar día a día en el deesarrollo
+### Para trabajar día a día en el desarrollo
 
 Es la suma entre las dos anteriores. Nos permite ver los cambios en tiempo real y exporta el proyecto a medida que lo desarrollamos. Es el comando que más se utiliza y el que ejecutarás a diario para desarrollar tu proyecto.
 
